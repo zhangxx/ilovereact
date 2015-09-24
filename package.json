@@ -9,9 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.0.2",
+    "postcss-cli": "^2.1.0",
     "postcss-import": "^7.0.0"
   },
   "dependencies": {
+    "browser-sync": "^2.9.3",
     "normalize.css": "^3.0.3"
   }
 }
