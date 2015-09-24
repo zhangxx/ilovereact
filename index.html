@@ -24,25 +24,28 @@
 
 <!-- <script src="js/app.js"></script> -->
 <div class="parts part1">
-    <img class="react-logo" src="img/react-logo.svg"/>
-    <div class="part1-title"><h1>Build Native Apps With React</h1></div>
-    <div class="navigation">
-        <a href="#native" class="nav-link">
-            Native iOS
-        </a>
 
-        <a href="#touch" class="nav-link">
-            Touch Handling
-        </a>
+    <div class="overlay"></div>
+    <div class="part1-box">
+        <img class="react-logo" src="img/react-logo.svg"/>
+        <div class="part1-title"><h1>Build Native Apps With React</h1></div>
+        <div class="navigation">
+            <a href="#native" class="nav-link">
+                Native iOS
+            </a>
 
-        <a href="#async" class="nav-link">
-            Asynchronous
-        </a>
+            <a href="#touch" class="nav-link">
+                Touch Handling
+            </a>
 
-        <a href="#flex" class="nav-link">
-            Flex &amp; Styling
-        </a>
-    </div>
+            <a href="#async" class="nav-link">
+                Asynchronous
+            </a>
+
+            <a href="#flex" class="nav-link">
+                Flex &amp; Styling
+            </a>
+        </div>
 
     </div>
 
@@ -50,7 +53,10 @@
 
 <div class="parts part2">
     <div class="iphone-demo">
-        <img src="img/iphone-frame.svg"/>
+        <div class="iphone-frame">
+            <img class="iphone-show" src="img/tumblr-demo.jpg"/>
+        </div>
+
     </div>
 
     <div class="feature-description">
@@ -67,7 +73,10 @@
 
 <div class="parts part3">
     <div class="iphone-demo">
-        <img src="img/iphone-frame.svg"/>
+        <div class="iphone-frame">
+            <img class="iphone-show" src="img/swype-demo.jpg"/>
+        </div>
+
     </div>
 
     <div class="feature-description">
@@ -80,7 +89,29 @@
     </div>
 </div>
 <div class="parts part4">
-    <h1>Android Is Here</h1>
+    <div class="part4-title"><h1>Android Is Here</h1></div>
+    <img id="android-robot" src="img/android-robot.svg"/>
 </div>
+
+<div id="slider-control">
+    <a href="#native" class="active">
+        <div class="dot"></div>
+    </a>
+
+    <a href="#touch">
+        <div class="dot"></div>
+    </a>
+
+    <a href="#async">
+        <div class="dot"></div>
+    </a>
+
+    <a href="#flex">
+        <div class="dot"></div>
+    </a>
+</div>
+
+
+
 </body>
 </html>
