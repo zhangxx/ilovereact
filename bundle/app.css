@@ -70,7 +70,8 @@ a:hover {
 
 .parts {
     width: 100%;
-    height: 820px;
+    height: 800px;
+    border: solid white;
 
 }
 .part1{
@@ -106,8 +107,11 @@ a:hover {
 }
 .react-logo{
     width: 320px;
-    height: 280px;
+    height: 380px;
 
+}
+#logo{
+    position: absolute;
 }
 .part1-title{
     text-align: center;
@@ -212,9 +216,9 @@ a:hover {
     position: absolute;
     top: 100%;
     left: 100%;
-    -webkit-transform: translate(-50%,-50%) rotate(-45deg);
-        -ms-transform: translate(-50%,-50%) rotate(-45deg);
-            transform: translate(-50%,-50%) rotate(-45deg);
+    -webkit-transform: translate(-50%,-50%) rotate(-60deg);
+        -ms-transform: translate(-50%,-50%) rotate(-60deg);
+            transform: translate(-50%,-50%) rotate(-60deg);
 
 
 }
